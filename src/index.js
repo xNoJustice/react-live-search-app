@@ -5,9 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <div className="bg-gray-300 dark:bg-gray-900 w-full h-screen flex justify-center items-center font-sans">
     <App />
-  </React.StrictMode>,
+  </div>,
   document.getElementById('root')
 );
 
