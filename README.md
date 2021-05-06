@@ -1,4 +1,4 @@
-<img src="" alt="" />
+<img src="https://github.com/xNoJustice/react-live-search-app/blob/71b9c0020a18a4281b13d89976d5f8c6889e8e9a/live-search.gif" alt="" />
 
 # Getting Started with Create React App
 
