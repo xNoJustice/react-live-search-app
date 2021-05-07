@@ -14,7 +14,7 @@ const App = () => {
         setFilteredUsers(data.results);
       });
   }, []);
-  console.log(users);
+
   const LiveSearch = (e) => {
     const filteredData = users.filter((user) => {
       return (
@@ -48,7 +48,7 @@ const App = () => {
                   type="text"
                   placeholder="Search user from name/surname/city..."
                   onChange={(e) => LiveSearch(e)}
-                  className="my-2 w-full rounded-full text-sm bg-grey-light text-grey-darkest dark:bg-gray-800 dark:text-gray-100 rounded h-10 p-3 focus:outline-none"
+                  className="my-2 w-full rounded-full text-sm bg-grey-light text-grey-darkest dark:bg-gray-800 dark:text-gray-100 h-10 p-3 focus:outline-none"
                 />
                 {filteredUsers.length > 0 ? (
                   <div className="w-full h-96 flex flex-col overflow-x-auto">
